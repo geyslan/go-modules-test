@@ -4,4 +4,4 @@ go 1.24
 
 replace github.com/geyslan/go-modules-test/types => ../types
 
-require github.com/geyslan/go-modules-test/types v0.2.0
+require github.com/geyslan/go-modules-test/types v0.2.42
