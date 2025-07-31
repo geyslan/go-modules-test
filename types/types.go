@@ -11,3 +11,8 @@ type Event struct {
 	Type string `json:"type"`
 	Data string `json:"data"`
 }
+
+// NewUser creates a new user - v0.1.1 feature
+func NewUser(id int, name string) User {
+	return User{ID: id, Name: name}
+}
